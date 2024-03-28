@@ -1,3 +1,4 @@
+import 'lessons/lesson_10_generic.dart';
 import 'lessons/lesson_3_vars.dart';
 import 'lessons/lesson_4_actions.dart';
 import 'lessons/lesson_5_comments.dart';
@@ -13,5 +14,6 @@ void main() {
   // lesson5();
   // lesson7();
   // lesson8();
-  lesson9();
+  // lesson9();
+  lesson10();
 }
