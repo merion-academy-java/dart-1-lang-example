@@ -129,18 +129,4 @@ multi-line string.""";
   bool isNull = (nullable == null);
   print("isNull: $isNull");
 
-
-  // Records ((value1, value2))
-
-  // Lists (List, also known as arrays)
-
-  // Sets (Set)
-
-  // Maps (Map)
-
-  // Runes (Runes; often replaced by the characters API)
-
-  // Symbols (Symbol)
-
-  // The value null (Null)
 }
