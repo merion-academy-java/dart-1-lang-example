@@ -1,14 +1,14 @@
-import 'lesson_18/animal.dart';
-import 'lesson_18/cat.dart';
+import 'class_examples/animal.dart';
+import 'class_examples/cat.dart';
 
 ///
 /// Classes
 ///
 void lesson18(){
 
-  var animal = Animal();
+  var animal = Animal.homeless();
   animal.voice();
 
-  var cat = Cat();
+  var cat = Cat.homeless();
   cat.voice();
 }

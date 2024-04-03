@@ -2,8 +2,14 @@
 /// Class for animals
 ///
 class Animal {
-  String name = "Animal";
+  final String name;
   DateTime createdAt = DateTime.now();
+
+  Animal(this.name);
+
+  Animal.homeless()
+      : name = "Homeless animal",
+        createdAt = DateTime.now();
 
   void voice() {
     print("$name ($createdAt): void!");
