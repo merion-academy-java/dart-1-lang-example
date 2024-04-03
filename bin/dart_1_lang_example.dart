@@ -2,6 +2,7 @@ import 'lessons/lesson_10_generic.dart';
 import 'lessons/lesson_11_typedef.dart';
 import 'lessons/lesson_14_function.dart';
 import 'lessons/lesson_15_loops.dart';
+import 'lessons/lesson_16_branches.dart';
 import 'lessons/lesson_3_vars.dart';
 import 'lessons/lesson_4_actions.dart';
 import 'lessons/lesson_5_comments.dart';
@@ -21,5 +22,6 @@ void main() {
   // lesson10();
   // lesson11();
   // lesson14();
-  lesson15();
+  // lesson15();
+  lesson16();
 }
