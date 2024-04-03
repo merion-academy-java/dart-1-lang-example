@@ -6,14 +6,14 @@ import 'class_examples/cat.dart';
 ///
 void lesson19(){
 
-  var homelessAnimal = Animal.homeless();
-  homelessAnimal.voice();
+  // var homelessAnimal = Animal.homeless();
+  // homelessAnimal.voice();
 
   var homelessCat = Cat.homeless();
   homelessCat.voice();
 
-  var animal = Animal("Animal");
-  animal.voice();
+  // var animal = Animal("Animal");
+  // animal.voice();
 
   var basilCat = Cat("Basil", catBreed: "Scottish cat");
   basilCat.voice();

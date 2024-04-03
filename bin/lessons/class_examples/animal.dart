@@ -1,7 +1,7 @@
 ///
 /// Class for animals
 ///
-class Animal {
+abstract class Animal {
   final String name;
   DateTime createdAt = DateTime.now();
 
@@ -11,7 +11,5 @@ class Animal {
       : name = "Homeless animal",
         createdAt = DateTime.now();
 
-  void voice() {
-    print("$name ($createdAt): void!");
-  }
+  void voice();
 }

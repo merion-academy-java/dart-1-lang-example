@@ -6,8 +6,8 @@ import 'class_examples/cat.dart';
 ///
 void lesson18(){
 
-  var animal = Animal.homeless();
-  animal.voice();
+  // var animal = Animal.homeless();
+  // animal.voice();
 
   var cat = Cat.homeless();
   cat.voice();
