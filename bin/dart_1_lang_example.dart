@@ -9,6 +9,7 @@ import 'lessons/lesson_19_constructors.dart';
 import 'lessons/lesson_20_methods.dart';
 import 'lessons/lesson_21_extend_class.dart';
 import 'lessons/lesson_24.dart';
+import 'lessons/lesson_25.dart';
 import 'lessons/lesson_3_vars.dart';
 import 'lessons/lesson_4_actions.dart';
 import 'lessons/lesson_5_comments.dart';
@@ -35,5 +36,6 @@ void main() {
   // lesson19();
   // lesson20();
   // lesson21();
-  lesson24();
+  // lesson24();
+  lesson25();
 }
