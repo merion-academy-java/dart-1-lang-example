@@ -17,6 +17,7 @@ import 'lessons/lesson_7_types.dart';
 import 'lessons/lesson_8_records.dart';
 import 'lessons/lesson_9_collection.dart';
 import 'tasks/even_or_odd.dart';
+import 'tasks/factorial.dart';
 import 'tasks/rectangle_area.dart';
 
 void main() {
@@ -42,6 +43,9 @@ void main() {
   // lesson25();
   // rectangleArea();
 
-  EvenOrOdd evenOrOdd = EvenOrOdd();
-  evenOrOdd.call();
+  // EvenOrOdd evenOrOdd = EvenOrOdd();
+  // evenOrOdd.call();
+
+  Factorial factorial = Factorial();
+  factorial.call();
 }
