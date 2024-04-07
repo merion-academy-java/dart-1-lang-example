@@ -24,6 +24,7 @@ import 'tasks/max_in_array.dart';
 import 'tasks/palindrome_check.dart';
 import 'tasks/rectangle_area.dart';
 import 'tasks/reverse_string.dart';
+import 'tasks/sum_in_range.dart';
 
 void main() {
   print("Hello, world!");
@@ -64,6 +65,9 @@ void main() {
   // PalindromeCheck palindromeCheck = PalindromeCheck();
   // palindromeCheck.call();
 
-  GuessNumberGame guessNumberGame = GuessNumberGame();
-  guessNumberGame.call();
+  // GuessNumberGame guessNumberGame = GuessNumberGame();
+  // guessNumberGame.call();
+
+  SumInRange sumInRange = SumInRange();
+  sumInRange.call();
 }
