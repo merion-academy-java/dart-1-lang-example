@@ -16,6 +16,7 @@ import 'lessons/lesson_5_comments.dart';
 import 'lessons/lesson_7_types.dart';
 import 'lessons/lesson_8_records.dart';
 import 'lessons/lesson_9_collection.dart';
+import 'tasks/even_or_odd.dart';
 import 'tasks/rectangle_area.dart';
 
 void main() {
@@ -39,5 +40,8 @@ void main() {
   // lesson21();
   // lesson24();
   // lesson25();
-  rectangleArea();
+  // rectangleArea();
+
+  EvenOrOdd evenOrOdd = EvenOrOdd();
+  evenOrOdd.call();
 }
