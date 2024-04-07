@@ -16,6 +16,7 @@ import 'lessons/lesson_5_comments.dart';
 import 'lessons/lesson_7_types.dart';
 import 'lessons/lesson_8_records.dart';
 import 'lessons/lesson_9_collection.dart';
+import 'pub_dev/md5_sum.dart';
 import 'tasks/celsius_to_fahrenheit.dart';
 import 'tasks/even_or_odd.dart';
 import 'tasks/factorial.dart';
@@ -72,6 +73,9 @@ void main() {
   // SumInRange sumInRange = SumInRange();
   // sumInRange.call();
 
-  PrimeNumberCheck primeNumberCheck = PrimeNumberCheck();
-  primeNumberCheck.call();
+  // PrimeNumberCheck primeNumberCheck = PrimeNumberCheck();
+  // primeNumberCheck.call();
+
+  MD5Sum md5sum = MD5Sum();
+  md5sum.call();
 }
