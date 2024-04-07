@@ -22,6 +22,7 @@ import 'tasks/factorial.dart';
 import 'tasks/guess_number_game.dart';
 import 'tasks/max_in_array.dart';
 import 'tasks/palindrome_check.dart';
+import 'tasks/prime_number_check.dart';
 import 'tasks/rectangle_area.dart';
 import 'tasks/reverse_string.dart';
 import 'tasks/sum_in_range.dart';
@@ -68,6 +69,9 @@ void main() {
   // GuessNumberGame guessNumberGame = GuessNumberGame();
   // guessNumberGame.call();
 
-  SumInRange sumInRange = SumInRange();
-  sumInRange.call();
+  // SumInRange sumInRange = SumInRange();
+  // sumInRange.call();
+
+  PrimeNumberCheck primeNumberCheck = PrimeNumberCheck();
+  primeNumberCheck.call();
 }
