@@ -21,6 +21,7 @@ import 'tasks/even_or_odd.dart';
 import 'tasks/factorial.dart';
 import 'tasks/max_in_array.dart';
 import 'tasks/rectangle_area.dart';
+import 'tasks/reverse_string.dart';
 
 void main() {
   print("Hello, world!");
@@ -53,6 +54,9 @@ void main() {
 
   // CelsiusToFahrenheit celsiusToFahrenheit = CelsiusToFahrenheit();
   // celsiusToFahrenheit.call();
-  MaxInArray maxInArray = MaxInArray();
-  maxInArray.call();
+  // MaxInArray maxInArray = MaxInArray();
+  // maxInArray.call();
+
+  ReverseString reverseString = ReverseString();
+  reverseString.call();
 }
