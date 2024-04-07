@@ -16,6 +16,7 @@ import 'lessons/lesson_5_comments.dart';
 import 'lessons/lesson_7_types.dart';
 import 'lessons/lesson_8_records.dart';
 import 'lessons/lesson_9_collection.dart';
+import 'tasks/celsius_to_fahrenheit.dart';
 import 'tasks/even_or_odd.dart';
 import 'tasks/factorial.dart';
 import 'tasks/rectangle_area.dart';
@@ -46,6 +47,9 @@ void main() {
   // EvenOrOdd evenOrOdd = EvenOrOdd();
   // evenOrOdd.call();
 
-  Factorial factorial = Factorial();
-  factorial.call();
+  // Factorial factorial = Factorial();
+  // factorial.call();
+
+  CelsiusToFahrenheit celsiusToFahrenheit = CelsiusToFahrenheit();
+  celsiusToFahrenheit.call();
 }
