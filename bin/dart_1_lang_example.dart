@@ -19,6 +19,7 @@ import 'lessons/lesson_9_collection.dart';
 import 'tasks/celsius_to_fahrenheit.dart';
 import 'tasks/even_or_odd.dart';
 import 'tasks/factorial.dart';
+import 'tasks/guess_number_game.dart';
 import 'tasks/max_in_array.dart';
 import 'tasks/palindrome_check.dart';
 import 'tasks/rectangle_area.dart';
@@ -62,5 +63,7 @@ void main() {
   // reverseString.call();
   // PalindromeCheck palindromeCheck = PalindromeCheck();
   // palindromeCheck.call();
-  
+
+  GuessNumberGame guessNumberGame = GuessNumberGame();
+  guessNumberGame.call();
 }
