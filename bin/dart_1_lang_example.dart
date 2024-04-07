@@ -19,6 +19,7 @@ import 'lessons/lesson_9_collection.dart';
 import 'tasks/celsius_to_fahrenheit.dart';
 import 'tasks/even_or_odd.dart';
 import 'tasks/factorial.dart';
+import 'tasks/max_in_array.dart';
 import 'tasks/rectangle_area.dart';
 
 void main() {
@@ -50,6 +51,8 @@ void main() {
   // Factorial factorial = Factorial();
   // factorial.call();
 
-  CelsiusToFahrenheit celsiusToFahrenheit = CelsiusToFahrenheit();
-  celsiusToFahrenheit.call();
+  // CelsiusToFahrenheit celsiusToFahrenheit = CelsiusToFahrenheit();
+  // celsiusToFahrenheit.call();
+  MaxInArray maxInArray = MaxInArray();
+  maxInArray.call();
 }
